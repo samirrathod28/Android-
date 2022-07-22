@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">E-Greetings</string>
-    <string name="title_activity_login_register">login_register</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="welcome_back">Welcome Back</string>
-    <string name="welcome">Welcome</string>
+    <string name="app_name">activitylifecycle</string>
+    <string name="on_start">On Start</string>
+    <string name="on_stop">On Stop</string>
+    <string name="on_pause">On Pause</string>
+    <string name="on_resume">On resume</string>
+    <string name="on_restart">On restart</string>
+    <string name="on_destroy">On Destroy</string>
 </resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/on_start"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/on_stop"
+        android:layout_below="@+id/b1"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+    android:id="@+id/b3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/on_pause"
+        android:layout_below="@+id/b2"
+    android:layout_centerHorizontal="true"
+    />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/on_resume"
+        android:layout_below="@+id/b3"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/on_restart"
+        android:layout_below="@+id/b4"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
