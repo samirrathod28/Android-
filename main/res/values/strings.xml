@@ -1,8 +1,16 @@
 <resources>
-    <string name="app_name">E-Greetings</string>
-    <string name="title_activity_login_register">login_register</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="welcome_back">Welcome Back</string>
-    <string name="welcome">Welcome</string>
+    <string name="app_name">login</string>
+    <string name="emobile">Mobile Number</string>
+    <string name="epass">Password</string>
+    <string name="new_user">New User?</string>
+    <string name="register">Register</string>
+    <string name="login">LOG IN</string>
+    <string name="reg_scn">Registration Form</string>
+    <string name="welcome">WELCOME TO TOPS</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_mobile_no">Enter Mobile No.</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already Have An Account?</string>
+
 </resources>
