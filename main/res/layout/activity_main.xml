@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+   <com.google.android.material.card.MaterialCardView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:cardCornerRadius="25dp"
+       android:layout_margin="30dp"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+       <TextView
+           android:id="@+id/logintxt"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/log_in"
+           android:layout_gravity="center"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           android:layout_marginTop="25dp"
+           android:fontFamily="monospace"
+           />
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/mnum"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           android:layout_marginStart="25dp"
+           android:layout_marginEnd="25dp"
+           app:startIconDrawable="@drawable/ic_baseline_phone_android_24"
+           >
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/mobile_number"
+               android:inputType="number"
+               android:fontFamily="monospace"
+               />
+
+       </com.google.android.material.textfield.TextInputLayout>
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/pswd"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           android:layout_marginStart="25dp"
+           android:layout_marginEnd="25dp"
+           app:passwordToggleEnabled="true"
+           app:startIconDrawable="@drawable/ic_baseline_lock_24"
+           >
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/password"
+               android:fontFamily="monospace"
+               android:inputType="textPassword"
+               />
+
+       </com.google.android.material.textfield.TextInputLayout>
+
+       <com.google.android.material.button.MaterialButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/log_in"
+           android:layout_gravity="center"
+           android:layout_marginTop="25dp"
+           android:fontFamily="monospace"
+           />
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_margin="10dp">
+
+           <TextView
+               android:id="@+id/newuser"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/new_user"
+               android:fontFamily="monospace"
+               android:textSize="15sp"/>
+           <TextView
+               android:id="@+id/register"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/register"
+               android:fontFamily="monospace"
+               />
+           </LinearLayout>
+       </LinearLayout>
+
+   </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

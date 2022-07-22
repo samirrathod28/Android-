@@ -1,8 +1,13 @@
 <resources>
-    <string name="app_name">E-Greetings</string>
-    <string name="title_activity_login_register">login_register</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="welcome_back">Welcome Back</string>
-    <string name="welcome">Welcome</string>
+    <string name="app_name">MaterialUi</string>
+    <string name="full_name">Full Name</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="city">City</string>
+    <string name="pincode">PinCode</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already Have an Account?</string>
+    <string name="log_in">Log In</string>
+    <string name="new_user">New User ?</string>
 </resources>
