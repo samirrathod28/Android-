@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_Home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:iconTint="@color/purple_500"
+        android:title="Rent" />
+
+    <item
+        android:id="@+id/navigation_Add"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:iconTint="@color/purple_500"
+        android:title="Add" />
+
+    <item
+        android:id="@+id/navigation_PayRent"
+        android:icon="@drawable/securepayment"
+        android:iconTint="@color/purple_500"
+        android:title="PayRent" />
+
+    <item
+        android:id="@+id/navigation_Profile"
+        android:icon="@drawable/userperson"
+        android:iconTint="@color/purple_500"
+        android:title="Profile" />
+
+
+
+</menu>

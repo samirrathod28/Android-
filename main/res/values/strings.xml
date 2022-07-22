@@ -1,8 +1,18 @@
 <resources>
-    <string name="app_name">E-Greetings</string>
-    <string name="title_activity_login_register">login_register</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="welcome_back">Welcome Back</string>
-    <string name="welcome">Welcome</string>
+    <string name="app_name">EasyRent</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="Swipe_right_to_login">Swipe Right to Login</string>
+    <string name="enter_valid_email">Enter Valid Email</string>
+    <string name="enter_valid_password">Enter Valid Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
