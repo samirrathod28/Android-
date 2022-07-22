@@ -1,8 +1,19 @@
 <resources>
-    <string name="app_name">E-Greetings</string>
-    <string name="title_activity_login_register">login_register</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="welcome_back">Welcome Back</string>
-    <string name="welcome">Welcome</string>
+    <string name="app_name">Delicious Pizza</string>
+    <string name="welcome_to_delicious_pizza">Welcome to Delicious Pizza</string>
+    <string name="enter_mobile_no">Enter Mobile No.</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="menu">Menu</string>
+    <string name="garlic_bread_149">Garlic Bread - 149</string>
+    <string name="sweet_corn_299">Sweet Corn - 299</string>
+    <string name="italian_249">Italian - 249</string>
+    <string name="margarita_199">Margarita - 199</string>
+    <string name="bill">Bill</string>
+    <string name="thank_you_for_order">Thank you for Order</string>
+    <string name="exit">Exit</string>
+    <string name="order_again">Order Again</string>
+    <string name="total_bill">Total Bill</string>
+    <string name="show_password">Show Password</string>
+    <string name="call">Call</string>
 </resources>
